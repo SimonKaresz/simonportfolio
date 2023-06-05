@@ -11,7 +11,7 @@ const ProjectCardData = [
   },
   {
     id: "2",
-    image: "/assets/images/weighted_average_image.png",
+    image: "/assets/images/weighted_average_image.PNG",
     title: "Weighted Average Calculator",
     description:
       "This is a simple and fast application for calculating weighted averages. You just need to set the achieved grade and the credit value of the subject.",
@@ -21,7 +21,7 @@ const ProjectCardData = [
   },
   {
     id: "3",
-    image: "/assets/images/darts_app_image.png",
+    image: "/assets/images/darts_app_image.PNG",
     title: "Darts Aplication",
     description:
       "This is a simple mini darts application where you can play in single-player or two-player mode.",
@@ -31,7 +31,7 @@ const ProjectCardData = [
   },
   {
     id: "4",
-    image: "/assets/images/weather_app_image.png",
+    image: "/assets/images/weather_app_image.PNG",
     title: "Mini Weather Application",
     description:
       "This is a weather application that shows the current weather conditions in the city we search for.",
