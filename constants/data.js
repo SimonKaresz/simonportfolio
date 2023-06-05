@@ -22,7 +22,7 @@ const ProjectCardData = [
   {
     id: "3",
     image: "/assets/images/darts_app_image.PNG",
-    title: "Darts Aplication",
+    title: "Darts Application",
     description:
       "This is a simple mini darts application where you can play in single-player or two-player mode.",
     technology: "React",
