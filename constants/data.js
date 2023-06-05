@@ -1,7 +1,7 @@
 const ProjectCardData = [
   {
     id: "1",
-    image: "/assets/images/quiz_app_image.png",
+    image: "/assets/images/quiz_app_image.PNG",
     title: "Quiz Application",
     description:
       "This quiz application was made with the Trivia API. You can choose categories, set the difficulty level, and also adjust the number of questions.",

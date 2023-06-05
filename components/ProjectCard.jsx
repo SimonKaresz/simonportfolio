@@ -13,7 +13,7 @@ const ProjectCard = ({
     <div className="w-full flex-col flex bg-neutral-100/10 rounded-md backdrop-blur-[2px] shadow-lg shadow-black/70">
       <div>
         <Image
-          src={image}
+          src={`${image}`}
           alt="project_image"
           className="w-full rounded-t-md"
           width={400}
