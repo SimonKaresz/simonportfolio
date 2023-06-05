@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::after{
+  content: "";
+  background-image: url("/assets/images/Hexagon.svg");
+  background-position: start;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.08;
+}
+
+/* Tailwind css */
+
+*{
+  @apply m-0 p-0 box-border
+}
+
+body{
+  @apply w-full min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-neutral-100
+}
+
+h1{
+  @apply text-5xl font-bold
+}
+
+h2{
+  @apply text-4xl font-bold
+}
+
+h3{
+  @apply text-3xl font-semibold
+}
+
+p{
+  @apply text-xl
+}
+
+.blue_gradient {
+  @apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+}
